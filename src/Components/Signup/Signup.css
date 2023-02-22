@@ -1,0 +1,73 @@
+.container {
+    width: 450px;
+    height: 470px;
+    background-color: white;
+    position: absolute;
+    left: 400px;
+    margin-top: 15px;
+    border-radius: 5px
+}
+
+
+.heading h3 {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Mulish;
+    color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.signup-container {
+    /* flex-direction: column; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.google {
+    margin-top: 30px;
+    border: 1px solid #BBBABA;
+    border-radius: 25px;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signin-ancor {
+    margin: 30px 0px 30px 0px;
+}
+
+.text {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #007141;
+    font-weight: 500;
+}
+.icon{
+    margin-right: 18px;
+   
+}
+.policies{
+    font-size: 13px;
+    font-family: Mulish;
+}
+.signin-ancor-2 {
+    margin: 30px 0px  0px 0px;
+}
+.fa-solid{
+    display: flex;
+    justify-content: right;
+    padding: 20px 40px 0px 0px;
+}

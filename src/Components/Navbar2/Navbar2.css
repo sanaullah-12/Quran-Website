@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    height: 67px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+}
+/* nav .logo{
+    display: block;
+} */
+
+nav .menubar i{
+    color: #090A11;
+    font-size: 20px;
+    cursor: pointer;
+   display: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+   align-items: center;
+}
+nav ul li {
+   margin:  0px 15px;
+   font-size: 16px;
+   font-family: poppins;
+   font-weight: 500;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #090A11;
+}
+nav ul li a:hover{
+    color: rgb(122, 120, 120);
+}
+#click{
+    display: none;
+}
+nav .btn1{
+    width: 68px;
+    height: 36px;
+    stroke: 2px #153B3C;
+    background: none;
+    font-weight: 500;
+    font-family: poppins;
+    font-size: 18PX;
+    color: #153B3C;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+   
+}
+nav .btn2{
+    width: 78px;
+    height: 36px;
+    background-color: #153B3C;
+    font-weight: 500;
+    font-family: poppins;
+    font-size: 18PX;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    transition: all .2s ease-in-out;
+    border: 2px solid #153B3C;
+    /* border: none; */
+}
+nav .btn1:hover{
+    background-color: #153B3C;
+   color: #FFFFFF;
+}
+
+nav .btn2:not(:hover) {
+    border: none;
+}
+nav .btn2:hover{
+    
+    
+    background: none;
+    color: #153B3C;
+}
+ .dropdown  {
+    /* position: absolute;
+    top: 80px;
+    display: block;
+    margin: 0%;
+    padding: 0%; */
+   display: block;
+    position: absolute;
+    top: 67px;
+    background-color: white;
+    width: 176px;
+    height: 192px;
+    display: none;
+
+   
+   
+    
+} 
+.dropdown:hover{
+    color: white;
+}
+   
+   
+   
+
+.drop-li{
+    width: 176px;
+    height: 64px;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    color: beige;
+    
+} 
+.drop-li:hover{
+    background-color: #090A11;
+    color: #FFFFFF;
+   
+}
+.drop-li a{
+    position: relative;
+    top: 17px;
+}
+.drop-li a:hover{
+    color: white;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul:hover > li{
+   
+}
+
+
+/* responsive navigation bar */
+/* 
+@media(max-width:940px){
+    nav .menubar i{
+        display: block;
+    }
+    #click:checked ~ .menubar i::before{
+        content: "x";
+    }
+    nav ul{
+        position: fixed;
+        top: 65px;
+        left: -100%;
+        background-color: red;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    nav ul:hover{
+        color: rgb(122, 120, 120);
+    } 
+    nav .btn1:hover{
+        background-color: #153B3C;
+        color: #FFFFFF;
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    nav ul li{
+        margin: 30px 0px;
+    }
+} */
